@@ -28,7 +28,7 @@ function App() {
         {/* <div>
           <Spinner animation="grow" variant="info" />
         </div> */}
-        <Frase></Frase> 
+        <Frase frasePops={frase}></Frase> 
         <Button variant="warning" className="mt-4">
           Enviar
         </Button>
